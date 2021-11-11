@@ -4,7 +4,7 @@ class Robots:
    
     def __init__(self, name):
         self.name = name
-        self.health = 200
+        self.health = 300
         self.weapon = Weapons("Laser Blast", 20)
     
     
