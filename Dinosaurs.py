@@ -1,10 +1,9 @@
 class Dinosaurs:
     
-    health_points = 150
-    
-    def __init__(self, name, ability_power):
-        self.name = "Dreadtooth"
-        self.ability_power = 10
+    def __init__(self, name, attack_damage):
+        self.name = name
+        self.health = 200
+        self.attack_damage = attack_damage
     
     def attack(self, robot):
-        pass
+        robot.health -= self.attack_damage
