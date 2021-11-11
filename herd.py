@@ -1,3 +1,5 @@
+from dinosaurs import Dinosaurs
+
 dinosaurs = []
 
 class Herd:

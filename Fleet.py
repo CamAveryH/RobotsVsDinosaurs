@@ -1,3 +1,5 @@
+from robot import Robots
+
 robots = []
 
 class Fleet:

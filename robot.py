@@ -1,3 +1,5 @@
+from weapons import Weapons
+
 class Robots:
     def __init__(self, name):
         pass
