@@ -31,6 +31,7 @@ class Battlefield:
             while(self.fleet.robot_list[chosen_robot_index].health > 0) and (self.herd.dino_list[chosen_dino_index].health >0):
                 print("\nChosing defender for selected attackers")
                 self.dino_turn(self.herd.dino_list[chosen_dino_index])
+                print("\nChosing defender for selected attackers")
                 self.robot_turn(self.fleet.robot_list[chosen_robot_index])
             # Do robo turn            
    
