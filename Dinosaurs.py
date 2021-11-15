@@ -1,3 +1,5 @@
+ #* Assigns values such as health and how fighting will work to the dinosaur class, to be pulled into the Herd class
+
 class Dinosaurs:
     
     def __init__(self, name, attack_damage):

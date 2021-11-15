@@ -1,4 +1,5 @@
 from dinosaurs import Dinosaurs
+#* Creates a list of dinosaurs with their defined stats which will be imported into the Battlefield class
 
 class Herd:
     def __init__(self):

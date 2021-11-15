@@ -1,8 +1,12 @@
+ #* defines how weapons will function once they're imported into the Robots class.
 class Weapons:
     def __init__ (self, name, attack_damage):
         self.name = name
         self.attack_damage = attack_damage
         
+        
+    #! ideas for different weapons and utilities that I hope to add before the end of the semester.  For now these are on the back-burner
+    
     # def weapon_types (self):
     #     self.name_1 = "Expandable Chain Sword"
     #     self.attack_damage_1 = 15

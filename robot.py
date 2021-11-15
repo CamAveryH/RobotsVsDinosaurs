@@ -1,4 +1,5 @@
 from weapons import Weapons
+#* Assigns values such as health and how fighting will work to the Robot class, to be pulled into the Fleet class
 
 class Robots:
    

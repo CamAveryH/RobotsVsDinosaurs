@@ -1,5 +1,6 @@
 from robot import Robots
 
+#* Creates a list of Robots and their defined stats which will be imported into the Battlefield class
 class Fleet:
     def __init__(self):
         self.robot_list = []
